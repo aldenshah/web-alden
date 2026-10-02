@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Mahasiswa - UTS Teknologi Web</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-light: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: var(--card-bg);
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 15px;
+    }
+
+    header h1 {
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      color: var(--text-light);
+      font-size: 0.95rem;
+    }
+
+    .info-group {
+      margin-bottom: 18px;
+    }
+
+    .info-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .info-group p {
+      font-size: 1.05rem;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #dbeafe;
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Profil Mahasiswa</h1>
+      <p>Tugas UTS Mata Kuliah Teknologi Web</p>
+    </header>
+
+    <div class="info-group">
+      <label>Nama Lengkap</label>
+      <p>ALDEN BINTANG.S</p>
+    </div>
+
+    <div class="info-group">
+      <label>NIM</label>
+      <p>2405110011</p>
+    </div>
+
+    <div class="info-group">
+      <label>Program Studi & Angkatan</label>
+      <p>TEKNIK KOMPUTER — Angkatan 2024</p>
+    </div>
+
+    <div class="info-group">
+      <label>Kesibukan</label>
+      <p>Mengikuti organisasi, Kerja, Kuliah di Universitas Negeri Semarang</p>
+    </div>
+
+    <div class="info-group">
+      <label>Cita-cita</label>
+      <p>Web Developer</p>
+    </div>
+
+    <div class="info-group">
+      <label>Bidang IT yang Ingin Didalami (Expert)</label>
+      <p><span class="badge"> Web Development </span></p>
+    </div>
+
+    <footer>
+      2026 UTS Teknologi Web. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
